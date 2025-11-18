@@ -9,72 +9,7 @@
     <!-- HTML !-->
 
 
-<style>
-body {
-  background-color: #000; /* Set the background of the page to black */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
 
-.text-bubble {
-  background-color: #000; /* Black background for the bubble/container */
-  padding: 20px 40px;
-  border-radius: 25px; /* Rounded corners for the "bubble" effect */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  /* You can add a subtle border or shadow for definition if needed */
-}
-
-.moving-rainbow-text {
-  font-size: 48px;
-  font-family: 'Arial Black', Gadget, sans-serif; /* A bold font works best */
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  
-  /* 1. Define the rainbow gradient */
-  background: linear-gradient(to right, #ff0000, #ff8b00, #e8ff00, #5dff00, #00b9ff, #5d00ff, #e800ff);
-  background-size: 400% 100%; /* Make the background wider than the text container */
-  
-  /* 2. Clip the background to the text */
-  -webkit-background-clip: text;
-  background-clip: text;
-  
-  /* 3. Make the text color transparent so the background shines through */
-  color: transparent; 
-  
-  /* 4. Apply the animation */
-  animation: rainbow_animation 6s linear infinite; /* Adjust duration (e.g., 6s) to control speed */
-}
-
-/* 5. Define the keyframe animation */
-@keyframes rainbow_animation {
-  0% {
-    background-position: 0 0; /* Start position */
-  }
-  100% {
-    background-position: 100% 0; /* End position, moves the gradient across */
-  }
-}
-
-    <style>
-        .rounded-rectangle {
-            position: absolute;
-  left: 250px;
-  top: 15px;
-            width: 1080px;
-            height: 50px;
-            background-color: darkblue;
-            border: 2px solid steelblue;
-            border-radius: 15px; /* This creates the rounded corners */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: black;
-            font-family: sans-serif;
-        }
-    </style>
         <style>
 body {
   margin: 0;
@@ -142,10 +77,6 @@ div.content {
     <a href="minecraft.html">Minecraft</a>
   <a href="#about">About</a>
 </div>
-    <div class="text-bubble">
-         <h1 class="moving-rainbow-text">mootext1</h1>
-    </div>    
-    
         
         
    
