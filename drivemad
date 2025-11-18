@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+</head>
+<body>
+    <div style="text-align: center; max-width: 800px; margin: 20px auto;">
+  <iframe 
+    src="https://www.drivemad.com/embed" 
+    width="100%" 
+    height="600" 
+    frameborder="0" 
+    scrolling="no"
+    allow="gamepad; fullscreen"
+    loading="lazy"
+    style="border: 4px solid #4CAF50; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </iframe>
+  <p style="font-family: Arial, sans-serif; font-size: 14px; margin-top: 10px;">
+    Play the official version of <a href="https://www.drivemad.com/" target="_blank">Drive Mad</a>.
+  </p>
+</div>
+</body>
+</html>
