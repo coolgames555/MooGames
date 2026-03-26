@@ -6,8 +6,27 @@
     <title>My Webpage</title>
 </head>
 <body>
-
-    <h1>Hello, World!</h1>
-
+<style>
+    @font-face {
+  font-family: 'pixel';
+  src: url('fonts/pixel.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+    #rectangle {
+    width: 80%;  /* Sets the width of the rectangle */
+    height: 15%; /* Sets the height of the rectangle */
+    border-radius: 15px;
+    background-color: lightblue; /* Sets the background color */
+    border: 2px solid black; /* Optional: adds a border */
+    position: fixed;     /* Use 'absolute' if it should stay within a specific container */
+    top: 0;              /* Aligns it to the very top */
+    left: 10%;           /* Moves the left edge to the horizontal center */
+  }
+</style>
+<div id="rectangle">
+    <h1 style="text-align: left; font-size:50px;">MOOGAMES v2</h1>
+</div>
+    
 </body>
 </html>
